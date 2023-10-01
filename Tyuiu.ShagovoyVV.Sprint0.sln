@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.33927.289
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task0", "Task0", "{90EA796B-EF86-4713-A803-3DCB1D7320E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.TkachukSS.Sprint0.Task0.V0", "..\..\..\Downloads\Tyuiu.TkachukSS.Sprint0-master\Tyuiu.TkachukSS.Sprint0-master\Tyuiu.TkachukSS.Sprint0.Task0.V0\Tyuiu.TkachukSS.Sprint0.Task0.V0.csproj", "{60623789-4613-4F00-98BF-15A00913D2D0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.ShagovoyVV.Sprint0.Task0.V0", "..\..\..\Downloads\Tyuiu.TkachukSS.Sprint0-master\Tyuiu.TkachukSS.Sprint0-master\Tyuiu.TkachukSS.Sprint0.Task0.V0\Tyuiu.ShagovoyVV.Sprint0.Task0.V0.csproj", "{60623789-4613-4F00-98BF-15A00913D2D0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
