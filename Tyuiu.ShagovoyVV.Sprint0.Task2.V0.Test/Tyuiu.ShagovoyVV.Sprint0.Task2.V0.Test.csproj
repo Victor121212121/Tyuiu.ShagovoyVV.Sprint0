@@ -5,11 +5,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{77EE3E84-89CE-4951-82FD-9C1D150A682F}</ProjectGuid>
+    <ProjectGuid>{C36EC37B-AFD2-47FF-9D8B-B613061CB575}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Tyuiu.TkachukSS.Sprint0.Task3.V0.Test</RootNamespace>
-    <AssemblyName>Tyuiu.TkachukSS.Sprint0.Task3.V0.Test</AssemblyName>
+    <RootNamespace>Tyuiu.TkachukSS.Sprint0.Task2.V0.Test</RootNamespace>
+    <AssemblyName>Tyuiu.TkachukSS.Sprint0.Task2.V0.Test</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -56,9 +56,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Tyuiu.TkachukSS.Sprint0.Task3.V0.Lib\Tyuiu.ShagovoyVV.Sprint0.Task3.V0.Lib.csproj">
-      <Project>{16124e3a-8bf9-463e-9948-861d1c516e01}</Project>
-      <Name>Tyuiu.ShagovoyVV.Sprint0.Task3.V0.Lib</Name>
+    <ProjectReference Include="..\Tyuiu.ShagovoyVV.Sprint0.Task2.V0.Lib\Tyuiu.ShagovoyVV.Sprint0.Task2.V0.Lib.csproj">
+      <Project>{5e3d1d11-d9b8-4467-a6d1-e503f9c5cd85}</Project>
+      <Name>Tyuiu.ShagovoyVV.Sprint0.Task2.V0.Lib</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
