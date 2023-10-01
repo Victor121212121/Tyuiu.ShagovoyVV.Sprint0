@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{76BA0D99-8B4C-4C6C-883A-17BBFB6F8481}</ProjectGuid>
+    <ProjectGuid>{ED2AE5C9-087E-478E-8EA2-719FFFB3BA80}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Tyuiu.ShagovoyVV.Sprint0</RootNamespace>
-    <AssemblyName>Tyuiu.ShagovoyVV.Sprint0</AssemblyName>
+    <RootNamespace>Tyuiu.TkachukSS.Sprint0.Task2.V0</RootNamespace>
+    <AssemblyName>Tyuiu.TkachukSS.Sprint0.Task2.V0</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,7 +33,27 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Tyuiu.TkachukSS.Sprint0.Task2.V0.Lib\Tyuiu.ShagovoyVV.Sprint0.Task2.V0.Lib.csproj">
+      <Project>{5e3d1d11-d9b8-4467-a6d1-e503f9c5cd85}</Project>
+      <Name>Tyuiu.ShagovoyVV.Sprint0.Task2.V0.Lib</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
